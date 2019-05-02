@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\usepackage[backend=biber, style=nature, sorting=none]{biblatex}
+\usepackage{amsmath, xurl, siunitx}
+\addbibresource{Lake.bib}
+
+\begin{document}
+
+(Some backgrounds about \textit{Microcystis aeruginosa} and its pigments (phycocyanin, Chl-a))
+
+On the contrary, a deep lake may be more appropriately modeled as layers featuring different flow, nutrient/oxygen concentration, and organism distribution (especially with aggregated microorganisms).
+
+It should be noted that outgrowth of microorganisms greatly affects the level of oxygen, cyanotoxins (the regulation on the production of which is still not well understood \cite{ToxicMaStrainsDominance}), and light transmission (which affects algae photosynthesis) in the lake, which may further shift the balance of the ecosystem.
+
+The flux type of larger animals will be mainly taxis (repelled by low oxygen level and attracted by high food sources)
+
+The .kml file is converted into the .geo format using QGIS3 with the GMSH plugin (\url{https://www.qgis.org}) and then imported into Gmsh (\url{gmsh.info}) for 2D-meshing.
+
+The Detroit River discharges $\sim \SI{5200}{m^3/s}$ (varying seasonally from a winter low of $\sim \SI{4400}{m^3/s}$ to a summer high of $\sim \SI{5700}{m^3/s}$) of water into Lake Erie (\cite{DetroitRiver}; the average velocities in the Detroit River is also plotted in Figure 1 from this citation).
+
+
+\subsection{Western Basin of Lake Erie (case study)}
+The Western Lake Erie Basin is mostly below \SI{10}{m} in depth \cite{LakeErieBathymetry} and vertically mixed throughout the year (\cite{LakeErieSeasonalTemperature}, where the seasonal average water temperatures are plotted). Lake Erie shoreline data were accessed through the Michigan GIS Open Data website \cite{LakeErieShoreline}. Hydrology data of Major inlets of the Western Lake Erie Basin are accessible through the National Water Information System (Table \ref{WesternLakeErieDataSources}).
+
+\begin{table}[ht]
+    \renewcommand{\arraystretch}{2}
+    \caption{\textbf{Hydrology and water quality data sources for the Western Basin of Lake Erie.}}
+    \label{WesternLakeErieDataSources}
+    \centering
+    \begin{tabular}{c c c}
+        \hline
+        Major inlets & USGS site number(s) & Data availability \\
+        \hline
+        Detroit River & 04165710 & Discharge, mean water velocity \\
+        Huron River & (N/A) & (N/A) \\
+        Raisin River & 04176500 & Discharge \\
+        Maumee River & 04193500 & Discharge, total phosphorus \\
+        Portage River & 04195820 & Discharge \\
+        \hline
+    \end{tabular}
+\end{table}
+
+The governing equations are the Navier-Stokes equations for incompressible flow. Here, we will use the Lattice Boltzmann Method (finite difference) with the Bhatnagar-Gross-Krook operator \cite{BGK} for numerical simulation of the steady-state water flux. 
+
+\subsection{Cyanobacteria bloom in the Western Basin of Lake Erie}
+\section{Acknowledgements}
+
+(iii) When evaluated along the equation (\ref{Non-trivialFP}), the Jacobian matrix becomes
+\begin{equation*}
+    \begin{bmatrix}
+    \dfrac{\beta \theta P}{\epsilon \zeta (P + \kappa_P)} & -\dfrac{\theta}{\epsilon} & \dfrac{\beta \theta \kappa_P \kappa_B}{(\epsilon\zeta - \theta)(P + \kappa_P)^2} \\[1.5em]
+    \dfrac{\beta (\epsilon\zeta - \theta) P}{\zeta(P + \kappa_P)} & 0 & 0 \\[1.5em]
+    - \dfrac{\omega \beta (\theta + \epsilon^2\zeta - \epsilon\theta) P}{\epsilon\zeta(P + \kappa_P)} & \dfrac{\omega\theta}{\epsilon} & -\dfrac{\omega \beta \theta \kappa_P \kappa_B}{(\epsilon\zeta - \theta)(P + \kappa_P)^2} 
+    \end{bmatrix}.
+\end{equation*}
+\begin{bmatrix}
+    j_{11}^\ast & j_{12}^\ast \\[1.5em]
+    j_{21}^\ast & j_{22}^\ast
+\end{bmatrix}
+
+If $B = 0$, $dB/dt = 0$; the same goes for $Z$. Therefore, for initial conditions $B(0), Z(0) \geq 0$, we have $\forall t \geq 0, B(t), Z(t) \geq 0$. Also, if $P = 0$ and $B, Z \geq 0$,
+\begin{equation*}
+    \frac{dP}{dt} = \omega (1 - \epsilon)\zeta\frac{B}{B + \kappa_B}Z + \omega \theta Z \geq 0.
+\end{equation*}
+Therefore, for initial conditions $B(0), Z(0), P(0) \geq 0$, we have $\forall t \geq 0, P(t) \geq 0$ as well. Naturally, the density/concentration of cyanobacteria, zooplankton, and dissolved phosphorus will never go less than 0. By this metric, the ODE system here is self-consistent.
+
+2. parameter sensitivity (structural stability of the model)
+
+First, let us examine cyanobacteria growth along a fixed-width eutrophic river with laminar flow. 
+
+In this and following figures, colorbars are adjusted and do not necessarily cover the entire data range for better visualization. Data above the maximum of the colorbar are colored yellow, while data below the minimum are colored blue.
+
+\end{document}

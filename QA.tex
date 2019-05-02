@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, siunitx, nopageno}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5em}
+\title{Appendix: Q \& A}
+\date{}
+\begin{document}
+
+\maketitle
+
+\textbf{Q:} Can you use this to model other types of bacteria as well?
+
+\textbf{Q:} How would the rate of eutrophication change for a body of freshwater, such as Lake Erie, versus for a body of salt water (e.g. Long Island Sound)? What would have to be changed in your model? 
+
+\textbf{A:} This model can simulate cyanobacteria blooms dominated by any species, not just \textit{Microcystis aeruginosa}. The only things that need to be changed are the parameter values.
+\bigskip
+
+\textbf{Q:} Would it be helpful to scale this model up to 3D?
+
+\textbf{A:} It can be more realistic but will be much more complicated. In the summer, the upper mixing layer is usually about \SI{10}{m}, which means that shallow water bodies can be modeled just by this 2-D model (see another question below).
+\bigskip
+
+\textbf{Q:} How does the width of the canal affect your model?
+
+\textbf{A:} It will change the role that diffusion may potentially play.
+\bigskip
+
+\textbf{Q:} If \SI{1}{km} of a river was very computationally expensive, how long do you predict your whole lake will take to simulate?
+
+\textbf{A:} Currently, the computation complexity scales linearly with the area $mn$ for advection and turnover. Diffusion uses the ADI method which involves matrix multiplication, whose dimension is up to $\max(m, n)^2$. 
+\bigskip
+
+\textbf{Q:} How do you deal with/incorporate different shapes, sizes, and depths of bodies of water? How much does this affect growth?
+
+\textbf{A:} The Lattice Boltzmann Method can handle any shape as long as we properly set up the grid and specify the boundaries. Depth will be hard to account for in this 2-D model (see another question below). How this may affect the cyanobacteria bloom cannot be predicted without doing the simulation on a case-by-case basis.
+\bigskip
+
+\textbf{Q:} Would the flow in a lake be strong enough that you would expect the same/as strong of patterns as in a river?
+
+\textbf{A:} The key is not the velocity but the retention time. The bloom pattern may be very different and has to be analyzed on a case-by-case basis.
+\bigskip
+
+\textbf{Q:} Could water depth be accounted for without necessarily converting to a 3D model (total biomass could scale non-linearly with depth; Depth could affect the presence of macroscopic plants on the bottom; flow rates might also be affected by the depth)?
+
+\textbf{A:} It is possible if we do not consider the vertical heterogeneity. We can write down the original conservation equations where we have terms like $\partial (B h)/\partial t =$ ... on the left side ($h$ is the local depth). However, if we have to consider the vertical heterogeneity, we will probably need a 3-D model.
+\bigskip
+
+\textbf{Q:} Fish (or other macroscopic animals) growth might be on too slow of a timescale to affect the rest of the ecosystem, but fish death/migration might still play a significant role even on a short timescale (there is no limit on the rate of death of fish due to lack of oxygen or toxin presence). Is it reasonable to exclude macroscopic animals from the model?
+
+\textbf{A: This is a good point.} The main reason I omitted them is that a lot of environmental cues will affect their movement (mainly taxis towards oxygen and food, but not advection or diffusion) and are hard to quantify. Also, not all cyanobacteria bloom produce cyanotoxins and even for those that do produce toxins, there are not enough quantitative physiology studies on the metabolisms of their production and toxicity. This model, at its current state, is not meant to include everything - I only use it to explain a specific natural phenomenon.
+\bigskip
+
+\textbf{Q:} Is it reasonable to model the movement of cyanobacteria and phosphorus as diffusion due to Brownian motion? Would random small currents in the body of water not far exceed the effect of Brownian motion on the speed of dispersal? This could still be modeled as a random walk/diffusion, but the parameters might need to be adjusted. Additionally, turbulence would affect this rate of small random flows.
+
+\textbf{Q:} Such turbulent mixing of the water column as described above might also have a positive effect on the homogeneity of the water, and affect the growth rates of cyanobacteria and plankton, both due to better mixing of nutrients and turbulence increasing the amount of dissolved oxygen. Could average turbulence be somehow approximated on a large scale without doing fluid simulations?
+
+\textbf{A:} For the two questions above: the assumption of the toy model is laminar flow without disturbance. The goal of this model is not to be as realistic as possible at this stage. Turbulent diffusion is discussed in the paper.
+\bigskip
+
+\textbf{Q:} Can you perturb your system at all to see how it affects growth?
+
+\textbf{A:} I tested different boundary conditions in the paper.
+\bigskip
+
+\textbf{Q:} Is it possible to evaluate the effects of traditional control measures for eutrophication such as introducing certain fish species, using some chemicals by this model? Or could this model indicate other potential methods to control cyanobacteria blooms?
+
+\textbf{A:} Technically yes, by changing boundary conditions and/or parameters related to growth and death. However, this is not the main interest of this paper.
+\bigskip
+
+\textbf{Q:} It was not super clear to me what parts of the model were based on previous work and what were your personal contributions. Can you explain this further?
+
+\textbf{A:} The PDEs here in this paper were not directly from a single paper. Nor was the algorithm. I did the analytical overview and wrote the codes from scratch. The parameters were taken from different papers by careful literature research and comparison. The main phenomenon being studied here has also not been quantitatively studied before. In many ways, this study is brand new.
+\bigskip
+
+\textbf{Q:} You mentioned the Lattice Boltzmann Method (LBM) at the very end, what is this model and what does it incorporate? Where is it lacking and what are you adding to make it more accurate?
+
+\textbf{A:} LBM is an algorithm of computational fluid dynamics compatible with the finite-difference framework in this study. It can be used to calculate steady-state flux in realistic water bodies. Its accuracy depends on how the system is discretized.
+\bigskip
+
+\textbf{Q:}  How are you planning on improving the algorithm (ideally what would you do to improve the algorithm)?
+
+\textbf{A:} I think the diffusion algorithm is the one that has the greatest potential for improvement. However, I have no idea how to improve it significantly for now.
+\bigskip
+
+\textbf{Q:} What are the stability and local truncation error of your finite difference method? Why is it the best choice for your system?
+
+\textbf{A:} It may not be the best framework for realistic water bodies with complex shapes but it is the most convenient one for my toy model. The advection algorithm will induce a numerical diffusion artifact. The Runge-Kutta method is a relatively accurate method for solving ODE but it still produces numerical errors. A complete, systematic examination on the numeric error is beyond my ability for now.
+
+\end{document}
