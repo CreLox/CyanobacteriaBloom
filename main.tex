@@ -43,7 +43,7 @@ A large number of experimental and modeling studies have been performed on diffe
 In this study, I will build up a 2-D partial differential equation (PDE) model to quantify how the density of cyanobacteria, the density of zooplankton, and the concentration of the dissolved limiting nutrient (\textbf{Figure \ref{AquaticEcosystem}}) evolve in the presence of advection and diffusion. By applying this model to a river with laminar flow and using finite-difference numerical simulation, I will provide an explanation of why cyanobacteria density near the bank is sometimes higher compared to the center of slow-flowing eutrophic streams.
 
 \section*{Models \& methods}
-\subsection*{A river with laminar flow (toy model)}
+\subsection*{The velocity field of a river with laminar flow (toy model)}
 Let us consider a river which is straight with a rectangular channel, whose width, slope, and discharge are all constant (\textbf{Figure \ref{ToyRiverVelocityProfile}}).
 
 \begin{figure}[h]
@@ -225,12 +225,12 @@ We will test 3 different boundary conditions here (\textbf{Figures \ref{CannotSu
 
 The contours are nearly parabolic. This can be explained qualitatively as followed. If we do not consider the diffusion terms (which are actually somewhat insignificant compared to the scale of the river), each streamline (row of the matrix) is independent. We can then define a phase parameter $\phi_{ij} = l_j / v(d_i)$ based on advection. With the boundary conditions that all tiles along the starting line have the same status $(B(0), Z(0), P(0))$, tiles with the same phase $\phi$ should have the same status $(B(\phi), Z(\phi), P(\phi))$. Because the velocity profile is parabolic (equation \ref{v-r}), the patterns naturally resemble parabolas. This also explains the phenomenon that cyanobacteria density is usually higher near the bank of eutrophic, near-quiescent rivers. Water along the bank has a longer retention time in the channel, and cyanobacteria flowing downstream have more time to utilize rich nutrients to proliferate.
 
-In the third scenario, we verify the stability of the non-degenerate fixed point [formula (\ref{Non-trivialFP}); part (iii) of the linear stability analysis]. The boundary status is set to be $(B(0), Z(0), P(0)) = (3.3636, 3.5795, 0.0150)$ mg/L. The rounding errors serve as a tiny disturbance. As shown in \textbf{Figure \ref{PhaseOscillationBlurredByDiffusion}}, the cyanobacteria density, zooplankton density, and dissolved phosphorus concentration are almost homogeneous within the river segment and features phase oscillation (with decreasing amplitudes as phase increases) around the fixed point. 
+In the third scenario, we verify the stability of the non-degenerate fixed point [formula (\ref{Non-trivialFP}); part (iii) of the linear stability analysis]. The boundary status is set to be $(B(0), Z(0), P(0)) = (3.3636, 3.5795, 0.0150)$ mg/L. The rounding errors serve as a tiny disturbance. As shown in \textbf{Figure \ref{PhaseOscillationBlurredByDiffusion}}, the cyanobacteria density, zooplankton density, and dissolved phosphorus concentration are almost homogeneous within the river segment and features damped oscillation (with decreasing amplitudes as phase increases) around the fixed point. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{Point0150Oscillate.pdf}
-    \caption{\textbf{Steady-state colormap of the river with boundary conditions set to be at the non-degenerate fixed point along the starting line.} A dissolved phosphorus concentration of \SI{0.0150}{mg/L} is substituted into formula (\ref{Non-trivialFP}), which is below the threshold and therefore corresponds to a stable fixed point according to the linear stability analysis. $v_{\max}$ is set to be \SI{1}{mm/s}.}
+    \caption{\textbf{Steady-state colormap of the river with boundary conditions set to be near the non-degenerate fixed point along the starting line.} A dissolved phosphorus concentration of \SI{0.0150}{mg/L} is substituted into formula (\ref{Non-trivialFP}), which is below the threshold and therefore corresponds to a stable fixed point according to the linear stability analysis. $v_{\max}$ is set to be \SI{1}{mm/s}.}
     \label{PhaseOscillationBlurredByDiffusion}
 \end{figure}
 
