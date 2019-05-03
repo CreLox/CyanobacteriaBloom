@@ -43,7 +43,7 @@ A large number of experimental and modeling studies have been performed on diffe
 In this study, I will build up a 2-D partial differential equation (PDE) model to quantify how the density of cyanobacteria, the density of zooplankton, and the concentration of the dissolved limiting nutrient (\textbf{Figure \ref{AquaticEcosystem}}) evolve in the presence of advection and diffusion. By applying this model to a river with laminar flow and using finite-difference numerical simulation, I will provide an explanation of why cyanobacteria density near the bank is sometimes higher compared to the center of slow-flowing eutrophic streams.
 
 \section*{Models \& methods}
-\subsection*{The velocity field of a river with laminar flow (toy model)}
+\subsection*{Velocity field of a river with laminar flow (toy model)}
 Let us consider a river which is straight with a rectangular channel, whose width, slope, and discharge are all constant (\textbf{Figure \ref{ToyRiverVelocityProfile}}).
 
 \begin{figure}[h]
@@ -107,7 +107,7 @@ Although pilus-like structures that may facilitate mobility are observed on cert
     \end{tabular}
 \end{table}
 
-\subsection*{The numerical simulation algorithm}
+\subsection*{Numerical simulation algorithm}
 
 The river segment in the toy model (with a width of $m\Delta y$ and a length of $n\Delta x$) is discretized into a 2-D matrix $\vec{A} = (a_{ij}) \in \mathbb{R}^{m \times n}$. It flows from left to right. Each element $a_{ij}$ represents a tile with an area of $\Delta x \cdot \Delta y$ whose center is $d_i = |(i - 1/2)\Delta y - m\Delta y/2|$ away from the center axis of the river and $l_j = (j - 1)\Delta x$ downstream from the starting line (the line crossing the centers of tiles represented by the first column and subject to the Dirichlet boundary condition). Each tile has 3 properties: the density of cyanobacteria $B_{ij}(t)$, the density of zooplankton $Z_{ij}(t)$, and the concentration of dissolved phosphorus $P_{ij}(t)$. Initial conditions are set to be $\vec{a}_{ij}(0) = (B_{ij}(0), Z_{ij}(0), P_{ij}(0)) = (0, 0, 0)$ for all $j > 1$ and $i$. The steady-state matrix is approximated by allowing the system to develop for a duration of time sufficient for the slowest streamlines (ones along the first and last rows) to travel 3 times the length of the river segment. This entire simulation is discretized into time steps of $\Delta t$ and looped through the following the routine:
 
