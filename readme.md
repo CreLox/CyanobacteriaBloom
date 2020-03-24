@@ -1,5 +1,3 @@
-# Writing biology papers in LaTeX
+# Tips on writing biology manuscripts in LaTeX
 
-## Tips on enhancing the performance of LaTeX compilation
-
-1. Compress figure PDFs ([in Preview on Mac](https://support.apple.com/guide/preview/compress-a-pdf-prvw1509/mac)).
+1. Compress figure PDFs ([in Preview on Mac](https://support.apple.com/guide/preview/compress-a-pdf-prvw1509/mac)) to speed up compilation.
