@@ -9,3 +9,5 @@
 \setcounter{figure}{0}
 \renewcommand{\thefigure}{S\arabic{figure}}
 ```
+
+3. Use the [textgreek](https://ctan.org/pkg/textgreek) package for upright greek letters in text.
