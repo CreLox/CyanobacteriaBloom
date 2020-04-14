@@ -15,9 +15,9 @@
 4. Follow specific font setting rules in chemistry:
 ```
 \textsc{l}-glutamine
-% use small capital L/D as chirality prefixes
+% use small capital L and D as chirality prefixes
 
 puromycin \textit{N}-acetyltransferase
-% use italic chemical element symbol in a name
+% use italic chemical element symbols in names
 ```
 
