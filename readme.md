@@ -12,7 +12,7 @@
 
 3. Use the [textgreek](https://ctan.org/pkg/textgreek) package for upright greek letters in text.
 
-4. Follow specific font settings in chemistry:
+4. Follow specific font setting rules in chemistry:
 ```
 \textsc{l}-glutamine
 % use small capital L/D as chirality prefixes
