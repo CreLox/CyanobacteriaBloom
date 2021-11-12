@@ -22,3 +22,5 @@ puromycin \textit{N}-acetyltransferase
 ```
 
 5. [BibLaTeX](https://ctan.org/pkg/biblatex) option setting: `\usepackage[backend=biber,sortcites,sorting=none,uniquename=false]{biblatex}`. The `sortcites` option enables sorting of numbers associated with multiple citations within a single citing bracket. The `sorting=none` option assigns number to citations based on the order in which they appear in the text. The `uniquename=false` option guarantees that authors are referred to their last names only (when a citation is referred not by a number but rather a name-year pair in the text), even if multiple authors in the list of all citations share the same last name.
+
+6. Use absolute units instead of relative units when possible (this applies to experiment notes in general). For example, use 18,200 g instead of 15,000 rpm, and use 40 nM instead of 40 pmole/well. Even you may not remember what centrifuge or dish size you used after a while.
