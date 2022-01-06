@@ -25,7 +25,7 @@
 
 6. Use absolute units instead of relative units when possible (this applies to experiment notes in general). For example, use 18,200 g instead of 15,000 rpm, and use 40 nM instead of 40 pmole/well. Even you may not remember what centrifuge or dish size you used after a while.
 
-7. By default, LaTeX enables ligature. I have tested that without specification of encoding, copying from Overleaf's output PDF opened by Adobe Acrobat Reader on Windows cannot interpret "filter" (with the "fi" ligature) properly, resulting in "__lter". The solution is adding the following lines to the preamble [as suggested](https://tex.stackexchange.com/questions/64188/what-are-good-ways-to-make-pdflatex-output-copy-and-pasteable):
+7. By default, LaTeX enables ligature. I have tested that without specification of encoding, copying from an Overleaf output PDF opened by Acrobat Reader on Windows leads to misinterpretation of "filter" (with the "fi" ligature), resulting in "__lter" after pasting. The solution is adding the following lines to the preamble [as suggested](https://tex.stackexchange.com/questions/64188/what-are-good-ways-to-make-pdflatex-output-copy-and-pasteable):
    ```TeX
    \input{glyphtounicode}
    \pdfgentounicode=1
