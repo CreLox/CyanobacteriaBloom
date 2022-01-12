@@ -30,3 +30,6 @@
    \input{glyphtounicode}
    \pdfgentounicode=1
    ```
+
+# Resources
+1. [An AAEL library workshop](https://ttc.iss.lsa.umich.edu/ttc/sessions/take-command-of-your-dissertation-with-latex/) organized by the University of Michigan Library.
