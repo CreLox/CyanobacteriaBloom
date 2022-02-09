@@ -32,4 +32,4 @@
    ```
 
 # Resources
-1. [An AAEL library workshop](https://ttc.iss.lsa.umich.edu/ttc/sessions/take-command-of-your-dissertation-with-latex/) organized by the University of Michigan Library, which evolves around [a thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf) and [Zotero with Better BibTeX](https://www.zotero.org/).
+1. [An AAEL library workshop](https://ttc.iss.lsa.umich.edu/ttc/sessions/take-command-of-your-dissertation-with-latex/) organized by the University of Michigan Library, which evolves around [a UMich thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf) and [Zotero with Better BibTeX](https://www.zotero.org/).
