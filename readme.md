@@ -34,4 +34,4 @@
 # Resources
 1. [A UMich thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf)
 
-2.[Zotero with Better BibTeX](https://www.zotero.org/).
+2. [Zotero with Better BibTeX](https://www.zotero.org/).
