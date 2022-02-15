@@ -31,7 +31,7 @@
    \pdfgentounicode=1
    ```
 
-8. Use \frenchspacing. That is the norm in regular writing.
+8. Use `\frenchspacing`. That has been the commonly accepted norm in regular writing.
 
 # Resources
 1. [A UMich thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf).
