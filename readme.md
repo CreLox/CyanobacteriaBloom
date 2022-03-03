@@ -1,6 +1,6 @@
 # Tips on writing biology manuscripts in LaTeX
 
-1. Compress figure PDFs ([in Preview on Mac](https://support.apple.com/guide/preview/compress-a-pdf-prvw1509/mac)) to speed up compilation.
+1. Compress figure PDFs ([in Preview on Mac](https://support.apple.com/guide/preview/compress-a-pdf-prvw1509/mac)) to speed up compilation. However, this method **severly** reduces the image quality and should never be used in the final edition.
 
 2. Create a supplementary information section where the numbering of all [tables](https://www.latex-tables.com/) and figures has an "S" prefix:
    ```TeX
