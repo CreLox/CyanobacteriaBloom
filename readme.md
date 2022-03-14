@@ -34,6 +34,6 @@
 8. Use `\frenchspacing`. That has been the commonly accepted norm in regular writing.
 
 # Resources
-1. [A UMich thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf). Contact its.software@umich.edu to acquire an Overleaf Professional License.
+1. [A UMich thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf). Contact its.software@umich.edu to acquire an Overleaf Professional License. Note that as the author of an Elsevier article, you retain the right to include it in a thesis or dissertation, provided it is not published commercially. Permission is not required, but please ensure that you reference the journal as the original source.
 
 2. [Zotero with Better BibTeX](https://www.zotero.org/).
