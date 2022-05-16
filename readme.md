@@ -33,7 +33,7 @@
 
 8. Use `\frenchspacing`, which has been commonly accepted as of now (see [the Wikipedia entry on sentence spacing](https://en.wikipedia.org/wiki/Sentence_spacing)).
 
-9. Export in PDF/A-1b (see 2.1.1 of the [manual](https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/pdfx/pdfx.pdf) of the `pdfx` package):
+9. To export in PDF/A-1b (see 2.1.1 of the [manual](https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/pdfx/pdfx.pdf) of the `pdfx` package), include the following contents in the preamble:
    ```TeX
    \begin{filecontents*}[overwrite]{\jobname.xmpdata}
       ...
