@@ -33,11 +33,11 @@
 
 8. Use `\frenchspacing`, which has been commonly accepted as of now (see [the Wikipedia entry on sentence spacing](https://en.wikipedia.org/wiki/Sentence_spacing)).
 
+9. Export as PDF/A-1b (see 2.1.1 and 2.2 of the [manual](https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/pdfx/pdfx.pdf) of the `pdfx` package).
+
 # Resources
 1. [A UMich thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf). Contact its.software@umich.edu to acquire an Overleaf Professional License. Note that as the author of an Elsevier article, you retain the right to include it in a thesis or dissertation, provided it is not published commercially. Permission is not required, but please ensure that you reference the journal as the original source.
 
 2. [Zotero with Better BibTeX](https://www.zotero.org/).
 
 3. Title case [standard](https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case).
-
-4. [Best practices for producing high quality PDF files](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/58005/PDFBestPractices_2020-12-15.pdf).
