@@ -33,9 +33,9 @@
 
 8. Use `\frenchspacing`, which has been commonly accepted as of now (see [the Wikipedia entry on sentence spacing](https://en.wikipedia.org/wiki/Sentence_spacing)).
 
-9. To export in PDF/A-1b (see 2.1.1 of the [manual](https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/pdfx/pdfx.pdf) of the `pdfx` package), include the following contents in the preamble. Note that this does NOT guarantee that the generated PDF conforms to the standard. Use the Prefight tool in Adobe Acrobat Pro DC for compliance check.
+9. To export in PDF/A-1b (see section 2.1.1 of the [manual](https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/pdfx/pdfx.pdf) of the `pdfx` package), include the following in the preamble. Note that doing this does NOT guarantee that the generated PDF file conforms to the standard. Use the Prefight tool in Adobe Acrobat Pro DC for a compliance check.
    ```TeX
-   \begin{filecontents*}{\jobname.xmpdata} % do not change the ``\jogname''
+   \begin{filecontents*}{\jobname.xmpdata} % do not change the ``\jogname'' here
       ... % add metadata
    \end{filecontents*}
    \RequirePackage[a-1b]{pdfx}
