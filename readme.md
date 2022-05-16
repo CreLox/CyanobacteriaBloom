@@ -39,3 +39,5 @@
 2. [Zotero with Better BibTeX](https://www.zotero.org/).
 
 3. Title case [standard](https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case).
+
+4. [Best practices for producing high quality PDF files](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/58005/PDFBestPractices_2020-12-15.pdf).
