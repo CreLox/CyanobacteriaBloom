@@ -48,4 +48,4 @@
 
 3. Title case [standard](https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case).
 
-4. List of LaTeX templates of journals: Annual Review (https://www.overleaf.com/gallery/tagged/ar)
+4. List of LaTeX templates for peer-reviewed journals: [Annual Review](https://www.overleaf.com/gallery/tagged/ar)
