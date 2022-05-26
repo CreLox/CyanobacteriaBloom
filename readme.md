@@ -47,3 +47,5 @@
 2. [Zotero with Better BibTeX](https://www.zotero.org/).
 
 3. Title case [standard](https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case).
+
+4. List of LaTeX templates of journals: Annual Review (https://www.overleaf.com/gallery/tagged/ar)
