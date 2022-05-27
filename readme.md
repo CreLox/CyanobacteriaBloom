@@ -41,7 +41,7 @@
    \RequirePackage[a-1b]{pdfx}
    ```
 
-10. The default color for all axes/ticks/axis labels/tick labels in MATLAB is gray. To change it to pure black, check [this](https://www.mathworks.com/matlabcentral/answers/465630-set-the-color-of-the-axes-per-default-to-black-instead-of-dark-gray).
+10. The default color for all axes/ticks/axis labels/tick labels in MATLAB is gray. To change it to pure black, check [this](https://www.mathworks.com/matlabcentral/answers/332039-how-do-i-change-the-default-axis-color-and-axis-label-text-to-black).
 
 # Resources
 1. [A UMich thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf). Contact its.software@umich.edu to acquire an Overleaf Professional License. Note that as the author of an Elsevier article, you retain the right to include it in a thesis or dissertation, provided it is not published commercially. Permission is not required, but please ensure that you reference the journal as the original source.
