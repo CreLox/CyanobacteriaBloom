@@ -51,3 +51,5 @@
 3. Title case [standard](https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case).
 
 4. List of LaTeX templates for peer-reviewed journals on Overleaf: [Annual Reviews](https://www.overleaf.com/gallery/tagged/ar)
+
+5. [How to embed all images in Adobe Illustrator files](https://www.youtube.com/watch?v=HfKqPy4PZYY).
