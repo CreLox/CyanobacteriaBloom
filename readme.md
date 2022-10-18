@@ -54,4 +54,4 @@
 
 4. List of LaTeX templates for peer-reviewed journals on Overleaf: [Annual Reviews](https://www.overleaf.com/gallery/tagged/ar)
 
-5. Method to [convert text to outlines](https://www.youtube.com/watch?v=4eF2JPl01_Y) (for consistency from macOS to Windows) and [embed all images](https://www.youtube.com/watch?v=HfKqPy4PZYY) (when sharing with other people) in an Adobe Illustrator file.
+5. For portability: [convert texts of an uncommon font or texts with a known portability issue to outlines](https://www.youtube.com/watch?v=4eF2JPl01_Y) and [embed all images](https://www.youtube.com/watch?v=HfKqPy4PZYY) (when sharing with other people) in an Adobe Illustrator file.
