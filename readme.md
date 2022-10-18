@@ -54,4 +54,4 @@
 
 4. List of LaTeX templates for peer-reviewed journals on Overleaf: [Annual Reviews](https://www.overleaf.com/gallery/tagged/ar)
 
-5. For portability: [convert texts of an uncommon font or texts with a known portability issue to outlines](https://www.youtube.com/watch?v=4eF2JPl01_Y) (or use the [Expand](https://graphicdesign.stackexchange.com/questions/42239/difference-between-expand-and-create-outlines-in-cc) tool) and [embed all images](https://www.youtube.com/watch?v=HfKqPy4PZYY) (especially when sharing with other people) in an Adobe Illustrator file.
+5. For portability: [convert texts of an uncommon font or texts with a known portability issue to outlines](https://www.youtube.com/watch?v=4eF2JPl01_Y) (or use the ["Expand..."](https://graphicdesign.stackexchange.com/questions/42239/difference-between-expand-and-create-outlines-in-cc) command) and [embed all images](https://www.youtube.com/watch?v=HfKqPy4PZYY) (especially when sharing with other people) in an Adobe Illustrator file.
