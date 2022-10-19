@@ -52,7 +52,7 @@
 4. Select->Same is a convenient tool when modifying dot plots.
 
 # Miscellaneous
-1. [A UMich thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf). Contact its.software@umich.edu to acquire an Overleaf Professional License for convenient backup and version control by GitHub. Note that as the author of an Elsevier article, you retain the right to include it in a thesis or dissertation, provided it is not published commercially. Permission is not required, but please ensure that you reference the journal as the original source.
+1. [A UMich thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf). Contact its.software@umich.edu to acquire an Overleaf Professional License for convenient backup and version control by synchronizing to GitHub. Note that as the author of an Elsevier article, you retain the right to include it in a thesis or dissertation, provided it is not published commercially. Permission is not required, but please ensure that you reference the journal as the original source.
 
 2. [Zotero with Better BibTeX](https://www.zotero.org/).
 
