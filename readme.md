@@ -51,6 +51,8 @@
 
 4. Select->Same is a convenient tool when modifying dot plots.
 
+5. The functionality to [center texts vertically in a text box](https://community.adobe.com/t5/illustrator-discussions/how-to-center-text-vertically-in-illustrator/td-p/8210475) has been added since version 24.3.
+
 # Miscellaneous
 1. [A UMich thesis LaTeX template (1988-current) hosted on Overleaf](https://www.overleaf.com/latex/templates/university-of-michigan-dissertation-template-unofficial/tpnjzndnrzmf). Contact its.software@umich.edu to acquire an Overleaf Professional License for convenient backup and version control by synchronizing to GitHub. Note that as the author of an Elsevier article, you retain the right to include it in a thesis or dissertation, provided it is not published commercially. Permission is not required, but please ensure that you reference the journal as the original source.
 
