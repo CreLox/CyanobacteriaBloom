@@ -65,3 +65,5 @@
 5. The default color for all axes/ticks/axis labels/tick labels in MATLAB is gray ([0.15, 0.15, 0.15]). To change it to pure black, check [this](https://www.mathworks.com/matlabcentral/answers/332039-how-do-i-change-the-default-axis-color-and-axis-label-text-to-black).
 
 6. [The IUPAC Compendium of Chemical Terminology](https://goldbook.iupac.org/).
+
+7. [Taxonomy nomenclature](https://www.biosciencewriters.com/Species-Taxonomy-Nomenclature.aspx).
