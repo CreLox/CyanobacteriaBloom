@@ -68,5 +68,5 @@
 
 7. [Fishionary](https://fishionary.fisheries.org/).
 
-8. [Avoid writing "$x$-fold higher/increase"](https://www.future-science.com/doi/10.4155/ipk-2016-0007).
+8. [Avoid writing: $x$-fold higher/increase](https://www.future-science.com/doi/10.4155/ipk-2016-0007) .
 
