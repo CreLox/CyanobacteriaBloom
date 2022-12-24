@@ -1,4 +1,4 @@
-# Tips on writing biology manuscripts in LaTeX on Overleaf
+# Tips on writing biology in LaTeX on Overleaf
 
 1. Compress figure PDFs ([in Preview on Mac](https://support.apple.com/guide/preview/compress-a-pdf-prvw1509/mac)) to speed up compilation. However, this method **severely** reduces the image quality and should never be used in the final edition.
 
@@ -67,3 +67,6 @@
 6. [Taxonomy nomenclature](https://www.biosciencewriters.com/Species-Taxonomy-Nomenclature.aspx) and [others](https://www.biosciencewriters.com/EditingArticleLibrary.aspx).
 
 7. [Fishionary](https://fishionary.fisheries.org/).
+
+8. [Avoid writing "$x$-fold higher/increase"](https://www.future-science.com/doi/10.4155/ipk-2016-0007).
+
