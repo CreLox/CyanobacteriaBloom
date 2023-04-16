@@ -66,9 +66,7 @@
 
 6. [Taxonomy nomenclature](https://www.biosciencewriters.com/Species-Taxonomy-Nomenclature.aspx) and [others](https://www.biosciencewriters.com/EditingArticleLibrary.aspx).
 
-7. [Fishionary](https://fishionary.fisheries.org/).
+7. [Avoid writing](https://www.future-science.com/doi/10.4155/ipk-2016-0007): $x$-fold higher/increase.
 
-8. [Avoid writing](https://www.future-science.com/doi/10.4155/ipk-2016-0007): $x$-fold higher/increase.
-
-9. Free softwares for drawing chemical structures: [ChemDraw JS](https://chemdrawdirect.perkinelmer.cloud/js/sample/index.html#) (projects can be saved into .svg files and then imported into Adobe Illustrator) and [ChemSketch](https://www.acdlabs.com/resources/free-chemistry-software-apps/chemsketch-freeware/) (Windows and academic/personal use only).
+8. Free softwares for drawing chemical structures: [ChemDraw JS](https://chemdrawdirect.perkinelmer.cloud/js/sample/index.html#) (projects can be saved into .svg files and then imported into Adobe Illustrator) and [ChemSketch](https://www.acdlabs.com/resources/free-chemistry-software-apps/chemsketch-freeware/) (Windows and academic/personal use only).
 
