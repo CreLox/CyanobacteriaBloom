@@ -68,5 +68,5 @@
 
 7. [Avoid writing](https://www.future-science.com/doi/10.4155/ipk-2016-0007): $x$-fold higher/increase.
 
-8. Free softwares for drawing chemical structures: [ChemDraw JS](https://chemdrawdirect.perkinelmer.cloud/js/sample/index.html#) (projects can be saved into .svg files and then imported into Adobe Illustrator) and [ChemSketch](https://www.acdlabs.com/resources/free-chemistry-software-apps/chemsketch-freeware/) (Windows and academic/personal use only).
+8. Free softwares for drawing chemical structures: [ChemDraw JS Sample](https://chemdrawdirect.perkinelmer.cloud/js/sample/index.html#) [wherein projects can be saved as (1) B64CDX/CDXML/MOL/SMILES and later reloaded into the web application again under the "Structure " tab or (2) .svg files and then imported into Adobe Illustrator] and [ChemSketch](https://www.acdlabs.com/resources/free-chemistry-software-apps/chemsketch-freeware/) (Windows and academic/personal use only).
 
