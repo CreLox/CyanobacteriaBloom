@@ -68,6 +68,8 @@
 
 7. [Avoid writing](https://www.future-science.com/doi/10.4155/ipk-2016-0007): $x$-fold higher/increase.
 
-8. Free softwares for drawing chemical structures: [ChemDraw JS Sample](https://chemdrawdirect.perkinelmer.cloud/js/sample/index.html#) [wherein projects can be saved into (1) the B64CDX/CDXML/MOL/SMILES format and later reloaded into the web application again for editing under the "Structure" tab or (2) .svg files and then imported into Adobe Illustrator] and [ChemSketch](https://www.acdlabs.com/resources/free-chemistry-software-apps/chemsketch-freeware/) (Windows and academic/personal use only).
+8. Free softwares for drawing chemical structures: [Marvin JS](https://marvinjs-demo.chemaxon.com/latest/demo.html) (wherein structures can be saved and later reloaded into the web application again) and [ChemSketch](https://www.acdlabs.com/resources/free-chemistry-software-apps/chemsketch-freeware/) (Windows and academic/personal use only).
 
 9. [On the use of italic and roman fonts for symbols in scientific text (IUPAC)](https://iupac.org/wp-content/uploads/2016/01/ICTNS-On-the-use-of-italic-and-roman-fonts-for-symbols-in-scientific-text.pdf).
+
+10. [Conventions for naming zebrafish genes, alleles, and proteins](https://zfin.atlassian.net/wiki/spaces/prot/pages/356155900/Conventions+For+Naming+Zebrafish+Genes).
