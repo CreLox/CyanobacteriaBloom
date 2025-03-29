@@ -68,7 +68,7 @@
 
 7. [Avoid writing](https://www.future-science.com/doi/10.4155/ipk-2016-0007): $x$-fold higher/increase.
 
-8. Free softwares for drawing chemical structures: [Marvin JS](https://marvinjs-demo.chemaxon.com/latest/demo.html) (wherein structures can be saved and later reloaded into the web application again) and [ChemSketch](https://www.acdlabs.com/resources/free-chemistry-software-apps/chemsketch-freeware/) (Windows and academic/personal use only).
+8. Free softwares for drawing chemical structures: [Marvin JS](https://marvinjs-demo.chemaxon.com/latest/demo.html) (wherein structures can be saved and later reloaded into the web application again), [ChemSketch](https://www.acdlabs.com/resources/free-chemistry-software-apps/chemsketch-freeware/) (Windows and academic/personal use only), and **[KingDraw](http://www.kingdraw.cn/en/)**.
 
 9. [On the use of italic and roman fonts for symbols in scientific text (IUPAC)](https://iupac.org/wp-content/uploads/2016/01/ICTNS-On-the-use-of-italic-and-roman-fonts-for-symbols-in-scientific-text.pdf).
 
