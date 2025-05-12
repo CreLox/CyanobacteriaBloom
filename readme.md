@@ -73,3 +73,5 @@
 9. [On the use of italic and roman fonts for symbols in scientific text (IUPAC)](https://iupac.org/wp-content/uploads/2016/01/ICTNS-On-the-use-of-italic-and-roman-fonts-for-symbols-in-scientific-text.pdf).
 
 10. [Conventions for naming zebrafish genes, alleles, and proteins](https://zfin.atlassian.net/wiki/spaces/prot/pages/356155900/Conventions+For+Naming+Zebrafish+Genes). [The HGVS Nomenclature](https://hgvs-nomenclature.org/stable/) is an internationally-recognized standard for the description of DNA, RNA, and protein sequence variants.
+
+11. [Chroma filter nomenclature](https://www.chroma.com/support/knowledge-center/about-fluorescence/nomenclature-and-conventions).
