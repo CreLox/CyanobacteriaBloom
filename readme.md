@@ -75,3 +75,7 @@
 10. [Conventions for naming zebrafish genes, alleles, and proteins](https://zfin.atlassian.net/wiki/spaces/prot/pages/356155900/Conventions+For+Naming+Zebrafish+Genes). [The HGVS Nomenclature](https://hgvs-nomenclature.org/stable/) is an internationally-recognized standard for the description of DNA, RNA, and protein sequence variants.
 
 11. [Chroma filter nomenclature](https://www.chroma.com/support/knowledge-center/about-fluorescence/nomenclature-and-conventions).
+
+12. Spacing and hyphens according to the [AMA Manual of Style: A Guide for Authors and Editors (11th ed.)](https://academic.oup.com/amamanualofstyle/book/27941):
+<img width="630" alt="Screenshot 2025-05-27 at 22 24 18" src="https://github.com/user-attachments/assets/4f7aea4b-3a22-4a2f-a5b6-a1230c17a6a3" />
+<img width="649" alt="Screenshot 2025-05-27 at 22 17 26" src="https://github.com/user-attachments/assets/a3ece6af-b427-4e6f-93ee-9650d2c93618" />
