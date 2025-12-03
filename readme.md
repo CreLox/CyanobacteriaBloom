@@ -81,3 +81,5 @@
 <img width="649" alt="Screenshot 2025-05-27 at 22 17 26" src="https://github.com/user-attachments/assets/a3ece6af-b427-4e6f-93ee-9650d2c93618" />
 
 13. [CAS registry lookup](https://commonchemistry.cas.org/).
+
+14. [The Merck Index: An Encyclopedia of Chemicals, Drugs, and Biologicals (15th edition; O'Neil, M. J. (ed.); Cambridge, UK: Royal Society of Chemistry; 2013)](https://www.scribd.com/document/781081651/Dokumen-pub-the-Merck-Index-an-Encyclopedia-of-Chemicals-Drugs-and-Biologicals-15nbsped-9781849736701-1849736707).
