@@ -83,3 +83,5 @@
 13. [CAS registry lookup](https://commonchemistry.cas.org/).
 
 14. [The Merck Index: An Encyclopedia of Chemicals, Drugs, and Biologicals (15th edition; O'Neil, M. J. (ed.); Cambridge, UK: Royal Society of Chemistry; 2013)](https://www.scribd.com/document/781081651/Dokumen-pub-the-Merck-Index-an-Encyclopedia-of-Chemicals-Drugs-and-Biologicals-15nbsped-9781849736701-1849736707).
+
+15. [Pathway Figure OCR](https://pfocr.wikipathways.org/): an open science project dedicated to extracting pathway information from the published literature.
