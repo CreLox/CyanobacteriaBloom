@@ -55,7 +55,7 @@
 
 ## Tips on making movies in ChimeraX
 
-Suppose one has defined two views (by using the command ```view name *```): ```overall``` (the zoomed-out view) and ```arg31``` (the zoomed-in view on Arg31 of chain A). The following commands will make a simple "rotation (around the vertical $y$-axis) → zoom-in → rotation" movie:
+Suppose one has defined two views (by using the command ```view name *```): ```overall``` (the zoomed-out view) and ```arg31``` (the zoomed-in view on Arg31 of chain A). The following commands will make a simple "rotation (around the vertical $y$-axis) → zoom-in → rotation → zoom-out" movie:
 
 ```
 view overall
@@ -68,9 +68,10 @@ cofr /A:31
 clip near -8 far 8 position cofr
 turn y 1 360
 wait 360
-movie encode output rotation_zoomin_rotation.mp4
 clip off
-view overall
+fly 120 arg31 overall
+wait 120
+movie encode output rotation_zoomin_rotation_zoomout.mp4
 cofr centerOfView
 ```
 
