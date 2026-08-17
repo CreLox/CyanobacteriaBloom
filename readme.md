@@ -109,3 +109,5 @@ To rotate the model in the opposite direction, use ```turn y -1 360``` instead.
 14. [The Merck Index: An Encyclopedia of Chemicals, Drugs, and Biologicals (15th edition; O'Neil, M. J. (ed.); Cambridge, UK: Royal Society of Chemistry; 2013)](https://www.scribd.com/document/781081651/Dokumen-pub-the-Merck-Index-an-Encyclopedia-of-Chemicals-Drugs-and-Biologicals-15nbsped-9781849736701-1849736707).
 
 15. [Pathway Figure OCR](https://pfocr.wikipathways.org/): an open science project dedicated to extracting pathway information from the published literature.
+
+16. [What do the consensus symbols ("*", ":", and ".") mean in a Clustal Omega alignment?](https://ebi-biows.gitdocs.ebi.ac.uk/documentation/faqs/clustal/#what-do-the-consensus-symbols-mean-in-the-alignment)
