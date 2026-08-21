@@ -43,14 +43,14 @@
 
 # Download data from a Google Cloud Storage public bucket
 
-Install the command-line interface for Google Cloud via ```conda``` and then activate the environment:
+Install [the command-line interface for Google Cloud](https://anaconda.org/channels/conda-forge/packages/google-cloud-sdk/overview) via ```conda``` and then activate the environment:
 
 ```zsh
 conda create -n gcloud -c conda-forge google-cloud-sdk
 conda activate gcloud
 ```
 
-Install fast hash calculation tools
+Install fast hash calculation tools:
 
 ```zsh
 $CONDA_PREFIX/bin/python -m pip install google-crc32c --upgrade --target $CONDA_PREFIX/share/google-cloud-sdk-*/lib/third_party
