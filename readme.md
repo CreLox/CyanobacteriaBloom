@@ -41,6 +41,28 @@
    \RequirePackage[a-1b]{pdfx}
    ```
 
+# Download data from a Google Cloud Storage public bucket
+
+Install the command-line interface for Google Cloud via ```conda``` and then activate the environment:
+
+```zsh
+conda create -n gcloud -c conda-forge google-cloud-sdk
+conda activate gcloud
+```
+
+Install fast hash calculation tools
+
+```zsh
+$CONDA_PREFIX/bin/python -m pip install google-crc32c --upgrade --target $CONDA_PREFIX/share/google-cloud-sdk-*/lib/third_party
+```
+
+You can now download data from a ```gs://``` link:
+
+```zsh
+mkdir ~/Downloads/gnomad.browser.v4.1.1.sites.ht # The destination folder to which the data will be downloaded has to be created first
+gcloud storage cp -r gs://gcp-public-data--gnomad/release/4.1.1/ht/browser/gnomad.browser.v4.1.1.sites.ht ~/Downloads/gnomad.browser.v4.1.1.sites.ht/
+```
+
 # Tips on making figures in Adobe Illustrator
 
 1. Use a colorblind-friendly palette. For example, instead of green/red to represent down/up regulated genes, use blue/red. In Illustrator, check how a colored image looks from a colorblind perspective by clicking View->Proof Setup->Color blindness.
