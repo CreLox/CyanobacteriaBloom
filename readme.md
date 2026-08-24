@@ -56,7 +56,7 @@ Install fast hash calculation tools:
 $CONDA_PREFIX/bin/python -m pip install google-crc32c --upgrade --target $CONDA_PREFIX/share/google-cloud-sdk-*/lib/third_party
 ```
 
-You can now download data from a ```gs://``` link:
+You can now download data from a ```gs://``` link (for this particular gnomAD v4.1.1 browser table data, you can also access an abridged version via [this link](https://figshare.com/articles/dataset/Stats_of_all_human_missense_variants_in_gnomAD_v4_1_1_/33324108)):
 
 ```zsh
 mkdir ~/Downloads/gnomad.browser.v4.1.1.sites.ht # The destination folder to which the data will be downloaded has to be created first
