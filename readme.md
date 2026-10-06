@@ -77,7 +77,7 @@ gcloud storage cp -r gs://gcp-public-data--gnomad/release/4.1.1/ht/browser/gnoma
 
 ## Tips on making movies in ChimeraX
 
-Suppose one has defined two views (by using the command ```view name *```): ```overall``` (the zoomed-out view) and ```arg31``` (the zoomed-in view on Arg31 of chain A). The following commands will make a simple "rotation (around the vertical $y$-axis) → zoom-in → rotation → zoom-out" movie:
+Suppose that you have defined two views (by using the command ```view name *```): ```overall``` (the zoomed-out view) and ```arg31``` (the zoomed-in view on Arg31 of chain A). The following commands will make a simple "rotation (around the vertical $y$-axis) → zoom-in → rotation → zoom-out" movie:
 
 ```
 view overall
