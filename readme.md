@@ -137,3 +137,5 @@ To define amino acids in a protein chain (```/B```) contacting the ligand (```FA
 15. [Pathway Figure OCR](https://pfocr.wikipathways.org/): an open science project dedicated to extracting pathway information from the published literature.
 
 16. [What do the consensus symbols ("*", ":", and ".") mean in a Clustal Omega alignment?](https://ebi-biows.gitdocs.ebi.ac.uk/documentation/faqs/clustal/#what-do-the-consensus-symbols-mean-in-the-alignment)
+
+17. [DSigDB: Drug SIGnatures DataBase](https://dsigdb.tanlab.org/DSigDBv1.0/). The original reference paper is [here](https://academic.oup.com/bioinformatics/article/31/18/3069/241009).
